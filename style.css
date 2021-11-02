@@ -96,5 +96,15 @@ button{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-
+@media (max-width: 675px){
+    .column{
+        float: top;
+    }
+    .one{
+        border-radius: 10px 10px 0 0;
+    }
+    .three{
+        border-radius: 0 0 10px 10px;
+    }
+}
 
